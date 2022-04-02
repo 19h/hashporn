@@ -1,6 +1,6 @@
 [package]
 name = "hashporn"
-version = "0.1.0"
+version = "0.1.1-alpha.0"
 authors = ["19h <kenan@sig.dev>"]
 description = "Detects resolution of videos, hashes them and renames accordingly."
 license = "MIT"
