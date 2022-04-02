@@ -2,11 +2,13 @@
 name = "hashporn"
 version = "0.1.0"
 authors = ["19h <kenan@sig.dev>"]
+description = "Detects resolution of videos, hashes them and renames accordingly."
+license = "MIT"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 hex = "0.4.3"
-metadata = "0.1.6"
-sha1 = "0.10.1"
+metadata = { version = "0.1.6", path = "metadata" }
+sha1 = "^0.6"
